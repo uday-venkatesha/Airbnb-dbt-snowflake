@@ -6,5 +6,16 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
+# Virtual & Local environments
 .venv
+.env
+.vscode/
+
+# dbt-generated files
+target/
+dbt_packages/
+logs/
+dbt_modules/
+
+# OS generated files
+.DS_Store
