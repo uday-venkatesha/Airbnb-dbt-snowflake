@@ -1,0 +1,14 @@
+
+# this is a source file which is used to define the source tables
+# instead of naming the database and schema in every sql file, we can name it here and jusr use
+# from source('staging', 'listings') to do the operation, seems very simple and easy to manage
+# by also creating source file and then adding this, we can also see the 
+
+sources:
+  - name: staging
+    database: airbnb
+    schema: staging
+    tables:
+      - name: listings
+      - name: bookings
+      - name: hosts
