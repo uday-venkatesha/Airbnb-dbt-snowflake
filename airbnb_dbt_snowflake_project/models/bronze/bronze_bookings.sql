@@ -1,1 +1,1 @@
-select * from {{source('staging', 'bookings')}} limit 10
+select * from {{source('staging', 'bookings')}} limit 13
