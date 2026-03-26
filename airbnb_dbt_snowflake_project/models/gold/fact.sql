@@ -13,8 +13,8 @@
     {
         "table" : "AIRBNB.GOLD.DIM_HOST",
         "columns" : "",
-        "alias" : "DIM_hosts",
-        "join_condition" : "GOLD_obt.host_id = DIM_hosts.host_id"
+        "alias" : "DIM_HOST",
+        "join_condition" : "GOLD_obt.host_id = DIM_HOST.host_id"
     }
 ] %}
 
