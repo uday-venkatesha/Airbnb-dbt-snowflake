@@ -9,6 +9,6 @@ models:
     config:
       materialized: table
       
-  - name: bronze_hosts
+  - name: bronze_host
     config:
       materialized: table
